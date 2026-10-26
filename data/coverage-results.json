@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T23:50:38.974Z",
+  "generatedAt": "2026-10-26T19:07:43.240Z",
   "summary": {
-    "totalRequirements": 73,
+    "totalRequirements": 77,
     "withAutomatedCoverage": 5,
-    "withoutAutomatedCoverage": 68,
+    "withoutAutomatedCoverage": 72,
     "totalAutomatedScenarios": 36,
     "notMappedScenarioCount": 4,
     "featureFilesScanned": 7
@@ -248,7 +248,20 @@
       "hasAutomatedCoverage": false,
       "hasPrd": true,
       "prdTitles": [
-        "PRD: WEB20 Home Page, Get Started Section v2"
+        "PRD: WEB20 Home Page, Get Started Section v2",
+        "Home Page PRD 01 — Widget Platform & Count Resolver",
+        "Home Page PRD 02 — Homepage Canvas & Personalization"
+      ]
+    },
+    {
+      "id": "home-widgets",
+      "scenarioCount": 0,
+      "files": [],
+      "hasAutomatedCoverage": false,
+      "hasPrd": true,
+      "prdTitles": [
+        "Home Page PRD 01 — Widget Platform & Count Resolver",
+        "Home Page PRD 02 — Homepage Canvas & Personalization"
       ]
     },
     {
@@ -298,6 +311,22 @@
       "prdTitles": [
         "PRD: Manual EMR Patient Data Update (WEB20)"
       ]
+    },
+    {
+      "id": "minerva-dev-fixtures",
+      "scenarioCount": 0,
+      "files": [],
+      "hasAutomatedCoverage": false,
+      "hasPrd": false,
+      "prdTitles": []
+    },
+    {
+      "id": "muse-drafts",
+      "scenarioCount": 0,
+      "files": [],
+      "hasAutomatedCoverage": false,
+      "hasPrd": false,
+      "prdTitles": []
     },
     {
       "id": "notes-space",
@@ -453,6 +482,14 @@
       "prdTitles": [
         "PRD: Report Page - Queue Bar Removal and Enhanced List Breadcrumb (List Panel Access)"
       ]
+    },
+    {
+      "id": "report-viewer-view-tracking",
+      "scenarioCount": 0,
+      "files": [],
+      "hasAutomatedCoverage": false,
+      "hasPrd": false,
+      "prdTitles": []
     },
     {
       "id": "reports-space-shared",
