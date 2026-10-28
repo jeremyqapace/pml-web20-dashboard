@@ -1,23 +1,23 @@
 {
-  "runId": "R-436",
-  "generatedAt": "2026-10-27T23:46:51.617Z",
+  "runId": "R-437",
+  "generatedAt": "2026-10-28T14:05:42.032Z",
   "branch": "main",
   "suite": "Smoke + API",
   "env": "DEV1",
-  "runUrl": "https://github.com/PaceMateLive/web20_webAutomation_PaceMateLive/actions/runs/40599144657",
+  "runUrl": "https://github.com/PaceMateLive/web20_webAutomation_PaceMateLive/actions/runs/40694214988",
   "summary": {
     "total": 172,
     "passed": 131,
     "failed": 41,
     "flaky": 0,
     "rate": 76.2,
-    "duration": "5m 8s",
-    "prevRunId": "R-435",
+    "duration": "6m 3s",
+    "prevRunId": "R-436",
     "prevRate": 76.2,
     "prevTotal": 172,
     "prevFailed": 41,
     "prevFlaky": 0,
-    "prevDuration": "8m 4s",
+    "prevDuration": "5m 8s",
     "consecutivePassing": 0
   },
   "layers": {
@@ -259,11 +259,11 @@
     }
   ],
   "hRuns": [
-    "R-432",
     "R-433",
     "R-434",
     "R-435",
-    "R-436"
+    "R-436",
+    "R-437"
   ],
   "hData": [
     [
@@ -346,7 +346,6 @@
   ],
   "trend": {
     "labels": [
-      "R-427",
       "R-428",
       "R-429",
       "R-430",
@@ -355,12 +354,13 @@
       "R-433",
       "R-434",
       "R-435",
-      "R-436"
+      "R-436",
+      "R-437"
     ],
     "passed": [
-      160,
       131,
       173,
+      131,
       131,
       131,
       131,
@@ -370,9 +370,9 @@
       131
     ],
     "failed": [
-      52,
       41,
       42,
+      41,
       41,
       41,
       41,
@@ -401,12 +401,12 @@
       "comp": "CRM Reports",
       "type": "API",
       "status": "failed",
-      "dur": "2s",
-      "err": "Error: Got 403",
+      "dur": "1m",
+      "err": "page.goto: Timeout 60000ms exceeded.",
       "endpoint": "GET /api/crm_report/listconfig/getDefaultViews",
-      "failedStep": "the response status should be 200",
-      "fullErr": "Error: Got 403",
-      "payload": "{\"resultCode\":\"FORBIDDEN\",\"message\":\"Access denied: PaceMate CRM Reports requires internal access.\",\"navigationUrl\":null,\"result\":null}",
+      "failedStep": "I create an API session as \"nurse_clinic_admin\"",
+      "fullErr": "page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://dev1.pacematelive.com/web20\", waiting until \"domcontentloaded\"\u001b[22m",
+      "payload": null,
       "requestPayload": null
     },
     {
@@ -1623,7 +1623,7 @@
       "comp": "External Crm Reports List Config",
       "type": "API",
       "status": "passed",
-      "dur": "1s",
+      "dur": "2s",
       "err": null,
       "endpoint": "GET /api/external_crm_report/listconfig/getCustomLists",
       "failedStep": null,
@@ -1779,7 +1779,7 @@
       "comp": "External Crm Reports List Config",
       "type": "API",
       "status": "passed",
-      "dur": "2s",
+      "dur": "1s",
       "err": null,
       "endpoint": "GET /api/external_crm_report/listconfig/getAvailableFilters",
       "failedStep": null,
@@ -2000,7 +2000,7 @@
       "comp": "External Crm Reports Transmission List",
       "type": "API",
       "status": "passed",
-      "dur": "2s",
+      "dur": "3s",
       "err": null,
       "endpoint": "POST /api/transmissions/external-crm-reports/reportsForEsigning",
       "failedStep": null,
@@ -2364,7 +2364,7 @@
       "comp": "User",
       "type": "API",
       "status": "failed",
-      "dur": "2s",
+      "dur": "1s",
       "err": null,
       "endpoint": "POST /api/user/search",
       "failedStep": null,
@@ -2455,7 +2455,7 @@
       "comp": "User",
       "type": "API",
       "status": "failed",
-      "dur": "1s",
+      "dur": "2s",
       "err": null,
       "endpoint": "POST /api/user/search",
       "failedStep": null,
@@ -2598,7 +2598,7 @@
       "comp": "User Setting",
       "type": "API",
       "status": "passed",
-      "dur": "1s",
+      "dur": "2s",
       "err": null,
       "endpoint": "POST /api/usersetting/clearFavoritePages/default",
       "failedStep": null,
