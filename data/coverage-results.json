@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T14:08:03.293Z",
+  "generatedAt": "2026-10-30T18:53:40.985Z",
   "summary": {
-    "totalRequirements": 77,
+    "totalRequirements": 76,
     "withAutomatedCoverage": 5,
-    "withoutAutomatedCoverage": 72,
+    "withoutAutomatedCoverage": 71,
     "totalAutomatedScenarios": 36,
     "notMappedScenarioCount": 4,
     "featureFilesScanned": 7
@@ -170,14 +170,6 @@
     },
     {
       "id": "dictionary-api-shared",
-      "scenarioCount": 0,
-      "files": [],
-      "hasAutomatedCoverage": false,
-      "hasPrd": false,
-      "prdTitles": []
-    },
-    {
-      "id": "echo-certificate-delivery",
       "scenarioCount": 0,
       "files": [],
       "hasAutomatedCoverage": false,
