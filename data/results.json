@@ -1,23 +1,23 @@
 {
-  "runId": "R-441",
-  "generatedAt": "2026-10-29T23:49:19.724Z",
-  "branch": "main",
+  "runId": "R-442",
+  "generatedAt": "2026-10-30T02:29:36.042Z",
+  "branch": "9/merge",
   "suite": "Smoke + API",
   "env": "DEV1",
-  "runUrl": "https://github.com/PaceMateLive/web20_webAutomation_PaceMateLive/actions/runs/40970223727",
+  "runUrl": "https://github.com/PaceMateLive/web20_webAutomation_PaceMateLive/actions/runs/40987545371",
   "summary": {
     "total": 172,
     "passed": 131,
     "failed": 41,
     "flaky": 0,
     "rate": 76.2,
-    "duration": "5m 55s",
-    "prevRunId": "R-440",
+    "duration": "5m 14s",
+    "prevRunId": "R-441",
     "prevRate": 76.2,
     "prevTotal": 172,
     "prevFailed": 41,
     "prevFlaky": 0,
-    "prevDuration": "4m 43s",
+    "prevDuration": "5m 55s",
     "consecutivePassing": 0
   },
   "layers": {
@@ -259,11 +259,11 @@
     }
   ],
   "hRuns": [
-    "R-437",
     "R-438",
     "R-439",
     "R-440",
-    "R-441"
+    "R-441",
+    "R-442"
   ],
   "hData": [
     [
@@ -346,7 +346,6 @@
   ],
   "trend": {
     "labels": [
-      "R-432",
       "R-433",
       "R-434",
       "R-435",
@@ -355,7 +354,8 @@
       "R-438",
       "R-439",
       "R-440",
-      "R-441"
+      "R-441",
+      "R-442"
     ],
     "passed": [
       131,
@@ -609,7 +609,7 @@
       "comp": "CRM Reports",
       "type": "API",
       "status": "passed",
-      "dur": "3s",
+      "dur": "2s",
       "err": null,
       "endpoint": "GET /api/crm_report/listconfig/getDefaultViews",
       "failedStep": null,
@@ -700,7 +700,7 @@
       "comp": "Dictionary",
       "type": "API",
       "status": "passed",
-      "dur": "2s",
+      "dur": "1s",
       "err": null,
       "endpoint": "POST /api/dictionary/interpretingProviders",
       "failedStep": null,
@@ -934,7 +934,7 @@
       "comp": "External Crm Report Bulk Actions",
       "type": "API",
       "status": "passed",
-      "dur": "3s",
+      "dur": "2s",
       "err": null,
       "endpoint": "POST /api/external_crm_report/bulk/execute",
       "failedStep": null,
@@ -986,7 +986,7 @@
       "comp": "External Crm Report Bulk Actions",
       "type": "API",
       "status": "passed",
-      "dur": "3s",
+      "dur": "2s",
       "err": null,
       "endpoint": "POST /api/external_crm_report/bulk/execute",
       "failedStep": null,
@@ -1233,7 +1233,7 @@
       "comp": "External Crm Reports Inclinic",
       "type": "API",
       "status": "passed",
-      "dur": "3s",
+      "dur": "2s",
       "err": null,
       "endpoint": "POST /api/transmissions/external-crm-reports/inclinic/deleteReportAndMarkNoShow",
       "failedStep": null,
@@ -1350,7 +1350,7 @@
       "comp": "External Crm Reports List Config",
       "type": "API",
       "status": "passed",
-      "dur": "3s",
+      "dur": "2s",
       "err": null,
       "endpoint": "GET /api/external_crm_report/listconfig/getConfig/remotesForApproval",
       "failedStep": null,
@@ -1662,7 +1662,7 @@
       "comp": "External Crm Reports List Config",
       "type": "API",
       "status": "passed",
-      "dur": "3s",
+      "dur": "2s",
       "err": null,
       "endpoint": "POST /api/external_crm_report/listconfig/duplicateList",
       "failedStep": null,
@@ -1701,7 +1701,7 @@
       "comp": "External Crm Reports List Config",
       "type": "API",
       "status": "passed",
-      "dur": "2s",
+      "dur": "3s",
       "err": null,
       "endpoint": "POST /api/external_crm_report/listconfig/updateCustomListName/someViewId",
       "failedStep": null,
